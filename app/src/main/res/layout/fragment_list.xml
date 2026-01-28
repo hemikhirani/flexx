@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
+
+    <!-- Recently Played Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/recent_play"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recently Played"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="4dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!-- Recently Added Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recently added"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="4dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!-- My Favorites Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favoritesLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Favorites"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="4dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>
